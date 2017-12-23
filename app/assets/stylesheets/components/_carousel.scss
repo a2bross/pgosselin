@@ -1,0 +1,13 @@
+.carousel-container {
+  height: calc(100vh - 70px);
+}
+
+.carousel-example-generic {
+  height: calc(100vh - 70px);
+}
+
+.carousel-inner > .item {
+    max-width: 100%;
+    height: calc(100vh - 70px);
+    background-size: cover;
+}
