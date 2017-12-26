@@ -1,0 +1,85 @@
+.page-frame {
+  margin: 30px 100px;
+  background-color: white;
+}
+
+.titrepage {
+  background-color: #C20000;
+  color: white;
+  font-weight: 300;
+  text-align: center;
+  font-size: 16px;
+}
+
+.soustitrepage {
+  text-align: center;
+  padding-top: 10px;
+  margin-bottom: 10px;
+  color: #00203C;
+  font-size: 16px;
+}
+
+
+
+.realisations {
+  justify-content: space-around;
+  text-align: center;
+  margin: 0px 70px;
+  height: 20px;
+}
+
+.projet {
+  margin-bottom: 50px;
+}
+
+.container-fluid {
+  display: table;
+}
+
+
+
+////////////card
+
+.card {
+  width: 350px;
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+  padding-right: 20px;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+
+.title {
+  text-align: center;
+  vertical-align: center;
+  color : white;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  bottom: 75px;
+  h4 {
+    padding: 0px 40px;
+    font-size: 19px;
+  }
+}
+
+.hvr-grow {
+    display: inline-block;
+    vertical-align: middle;
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    transition-duration: 0.3s;
+    transition-property: transform;
+}
+
+.hvr-grow:hover,
+.hvr-grow:focus,
+.hvr-grow:active {
+  transform: scale(1.05);
+}

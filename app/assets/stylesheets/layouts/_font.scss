@@ -1,0 +1,24 @@
+h1, h2, h4 {
+  font-family: 'Julius Sans One', sans-serif;
+}
+
+h3, h5, h6 {
+  font-family: 'Roboto', sans-serif;
+}
+
+.btn-primary {
+  background-color: #0E1E48;
+  border: 1px solid #0E1E48;
+}
+
+.btn-primary:hover {
+  transition-duration: 0.3s;
+}
+
+body {
+  background-color: rgba(14, 30, 72, 0.03);;
+}
+
+ a:hover {
+  text-decoration: none;
+}
