@@ -1,9 +1,20 @@
-h1, h2, h4 {
-  font-family: 'Julius Sans One', sans-serif;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-h3, h5, h6 {
+h1, h2, h4 {
   font-family: 'Roboto', sans-serif;
+  font-size: 25px;
+  //padding-top: 30px;
+  //padding-bottom: 25px;
+  margin-top: 0px;
+}
+
+h3, h5, h6, p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  margin: 0px;
 }
 
 .btn-primary {

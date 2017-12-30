@@ -1,5 +1,7 @@
 .carousel-container {
-  height: calc(100vh - 70px);
+  height: calc(100vh - 70px) !important;
+  text-align: center;
+  position: relative;
 }
 
 .carousel-example-generic {
@@ -10,4 +12,25 @@
     max-width: 100%;
     height: calc(100vh - 70px);
     background-size: cover;
+}
+
+.cta {
+  position: absolute;
+  padding: 10px 20px;
+  top: 50%;
+  right: 41%;
+}
+
+.accueil {
+  position: absolute;
+  padding: 15px 150px;
+  background-color: rgba(0, 0, 0, 0.3);
+  top: 23%;
+  right: 32%;
+  color: white;
+  h2 {
+    font-size: 150%;
+    line-height: 1.5;
+  }
+
 }

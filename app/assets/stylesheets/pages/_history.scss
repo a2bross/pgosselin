@@ -1,0 +1,186 @@
+
+/////////// Côté gauche /////////////
+
+.timeline {
+  height: calc(100vh - 100px);
+  background-color: white;
+  color: black;
+  margin: 15px 0px;
+  padding: 0px;
+}
+
+.inline-item {
+  display: flex;
+}
+
+.resume {
+  width: 75%;
+  display: flex;
+  align-items: center;
+  border-top: solid 1px rgb(230, 230, 230);
+    p {
+    font-size: 14px;
+    text-align: left;
+    padding: 5px 10px;
+    margin: 0px;
+  }
+}
+
+.date {
+  padding: 5px 5px;
+  width: 21%;
+  border-top: solid 1px rgb(230, 230, 230);
+  font-family: 'Roboto', sans-serif;
+   p {
+    font-size: 14px;
+  }
+}
+
+.date1 {
+  width: 21%;
+}
+
+.line {
+  width: 4%;
+  border-top: solid 1px rgb(230, 230, 230);
+}
+
+.ga {
+  background-color: black;
+}
+
+.nex {
+  background-color: red;
+}
+
+.school {
+  background-color: yellow;
+}
+
+.line1 {
+  width: 4%;
+}
+
+.resume1 {
+  width: 75%;
+  display: flex;
+  align-items: center;
+    p {
+    font-size: 14px;
+    text-align: left;
+    padding: 0px 10px;
+    margin: 0px;
+  }
+}
+
+.twenty17 {
+  height: 14%;
+}
+.twenty11 {
+  height: 3.8%;
+}
+.twenty10 {
+  height: 4.6%;
+}
+.twenty08 {
+  height: 2.3%;
+}
+.twenty08bis {
+   height: 11.6%;
+}
+.twenty02 {
+  height: 9.3%;
+}
+.nineteen98 {
+  height: 17.8%;
+}
+.nineteen90 {
+  height: 15.6%;
+}
+.nineteen83 {
+  height: 9.3%;
+}
+.nineteen79 {
+  height: 4.6%;
+}
+.nineteen77 {
+  height: 7%;
+}
+
+
+/////////// Côté droit /////////////
+
+.fiche {
+  margin: 15px 0px;
+}
+
+.poste {
+  height: 10vh;
+  width: 100%;
+  background-color: rgb(230, 230, 230);
+  padding: 20px;
+  text-align: center;
+  vertical-align: middle;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+  h2 {
+  //vertical-align: middle;
+  text-align: center !important;
+
+  }
+}
+
+.resume-full {
+  height: calc(90vh - 115px);
+  width: 60%;
+  background-color: white;
+  padding: 15px;
+  vertical-align: middle;
+  margin-top: 15px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.photo-resume {
+  height: calc(90vh - 115px);
+  width: 40%;
+  margin-left: 15px;
+  background-color: white;
+  margin-top: 15px;
+  text-align: center;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+  overflow: auto;
+  img {
+    width: 100%;
+  }
+}
+
+.legende {
+  background-color: rgba(0, 0, 0, 0.4);
+  vertical-align: middle;
+  color: white;
+}
+
+
+.hvr-insight {
+    display: inline-block;
+    vertical-align: middle;
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    transition-duration: 0.3s;
+    transition-property: transform;
+}
+
+
+//hover
+
+.resume:hover, .resume:active {
+  background-color: $blue;
+  color: white;
+}
+
+.resume1:hover {
+  background-color: $blue;
+  color: white;
+}
+
