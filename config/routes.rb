@@ -5,6 +5,10 @@ Rails.application.routes.draw do
   get 'realization', to: 'pages#realization'
   get 'solution', to: 'pages#solution'
   get 'contact', to: 'pages#contact'
+
+
+  resources :projects
+
 end
 
 

@@ -9,14 +9,25 @@
   }
 }
 
+.text-frame {
+  padding: 0px 15px;
+  h5 {
+    font-size: 18px;
+  }
+}
+
 
 .frame-realization {
   margin-top: 50px;
   margin-bottom: 30px;
-  background-color: #0e1e48;
-  color: white;
+
   padding: 10px 20px;
-  text-align: center;
+  h5 {
+    font-size: 18px;
+  }
+  i {
+    color: $blue;
+  }
 }
 
 .container {
@@ -28,4 +39,18 @@
 
 .logo-partenaires {
   padding: 50px 15px;
+  margin-top: 15px;
+  border-top: 1px solid rgb(210, 210, 210);
+  img {
+    margin: 8px;
+  }
+}
+
+.center-text {
+  color: grey;
+  text-align: center;
+}
+
+.bold {
+  font-weight: bolder;
 }

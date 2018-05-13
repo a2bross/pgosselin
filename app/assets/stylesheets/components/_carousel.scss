@@ -34,3 +34,88 @@
   }
 
 }
+
+.carousel-page {
+width:100%;
+height:400px;
+background-color:#5f666d;
+color:white;
+}
+
+
+.carousel-inner {
+  height: calc(100vh - 70px);
+}
+
+.photo-banner {
+  width: 100%;
+  height: calc(100vh - 70px);
+  padding: 0;
+  background-size: cover !important;
+  background-image: center !important;
+  opacity: 0.8;
+  background-position: center center;
+}
+
+.home-global-container .carousel-control {
+  top: 30%;
+  text-shadow: none;
+}
+
+.homepage-header {
+  padding: 40px;
+  bottom: 20vh;
+  position: absolute;
+  z-index: 1;
+  left: 20%;
+  right: 20%;
+  text-align: center;
+  color: white;
+  max-width: 100vw;
+}
+
+.homepage-header h1 {
+  margin-top: 20px;
+  font-size: 62px;
+  margin-bottom: 30px;
+  font-family: 'Julius Sans One', sans-serif;
+}
+
+.homepage-header p {
+  margin-bottom: 30px;
+  font-size: 25px;
+}
+
+.carousel-inner > .item {
+  height: 70vh;
+}
+.carousel-inner > .item > img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  }
+
+.no-padding {
+  padding: 0;
+}
+
+.bouton {
+  padding: 10px 20px;
+  margin-top: 10px;
+  border-radius: 5px;
+  font-size: 23px;
+  background-color: rgba(16, 25, 73, 0.95);
+  transition: 0.5s;
+  color: white;
+}
+
+.bouton:hover {
+  border: solid white 3px;
+  transition: 0.3s;
+  background-color: rgba(16, 25, 73, 0.1);
+  color: white;
+}
+
+
+

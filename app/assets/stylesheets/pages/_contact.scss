@@ -11,6 +11,131 @@
   padding-top: 30px;
 }
 
+
+.submit {
+  width: 100%;
+  margin-top: 18px;
+}
+
+.container {
+  h3 {
+    margin-top: 50px;
+    font-size: 20px;
+  }
+}
+
+
+//////////mail////////////////
+
+.mailing {
+  position: relative;
+  margin-top: 20px;
+  h3 {
+  margin-bottom: 45px;
+  }
+  i {
+  font-size: 150px;
+  }
+
+}
+
+.btn-mail {
+  a {
+    color: white;
+    transition-duration: 0.5s;
+  }
+  h4 {
+    font-size: 22px;
+    margin-top: 15px;
+  }
+}
+
+.btn-mail {
+  a:hover {
+  color: $blue;
+  transition-duration: 0.5s;
+  }
+}
+
+
+
+//////////photo////////////////
+
+
+
+
+#pierre-gosselin:hover {
+  h6 {
+    opacity: 1;
+  }
+}
+
+.photo {
+  position: relative;
+  margin-top: 20px;
+  h3 {
+    margin-bottom: 45px;
+  }
+  #pierre-gosselin {
+    border-radius: 16px;
+    height: 80%;
+    width: 80%;
+    text-align: center;
+    transition-duration: 0.5s;
+
+  }
+  i {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    opacity: 0;
+    transition-duration: 0.5s;
+
+  }
+  h6 {
+    opacity: 0;
+    transition-duration: 0.5s;
+
+  }
+}
+
+.photo:hover {
+  position: relative;
+  margin-top: 20px;
+  #pierre-gosselin {
+    height: 80%;
+    width: 80%;
+    text-align: center;
+    filter: grayscale(100%);
+    transition-duration: 0.5s;
+  }
+  i {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 85px;
+    opacity: 0.6;
+    transition-duration: 0.5s;
+  }
+  h6 {
+    text-decoration: none;
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0.6;
+    transition-duration: 0.5s;
+    font-size: 17px;
+  }
+}
+
+
+//////////////////////former contact form///
+
+
 .contact-form {
   margin-top: 20px;
   border-radius: 3px;
@@ -42,84 +167,5 @@ form {
 
 textarea {
   margin-top: 19px;
-}
-
-.submit {
-  width: 100%;
-  margin-top: 18px;
-}
-
-.container {
-  h3 {
-    margin-top: 50px;
-  }
-}
-
-//////////photo////////////////
-
-
-
-
-#pierre-gosselin:hover {
-  h6 {
-    opacity: 1;
-  }
-}
-
-.photo {
-  position: relative;
-  margin-top: 20px;
-  border-radius: 3px;
-  h3 {
-    margin-bottom: 45px;
-  }
-  #pierre-gosselin {
-    height: 100%;
-    width: 100%;
-    text-align: center;
-  }
-  i {
-    position: absolute;
-    top: 70%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 50px;
-    opacity: 0;
-  }
-  h6 {
-    opacity: 0;
-  }
-}
-
-.photo:hover {
-  position: relative;
-  margin-top: 20px;
-  border-radius: 3px;
-  #pierre-gosselin {
-    height: 100%;
-    width: 100%;
-    text-align: center;
-    filter: grayscale(100%);
-    transition-duration: 0.5s;
-  }
-  i {
-    position: absolute;
-    top: 70%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 85px;
-    opacity: 0.6;
-    transition-duration: 0.5s;
-  }
-  h6 {
-    text-decoration: none;
-    position: absolute;
-    top: 85%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    opacity: 0.6;
-    transition-duration: 0.5s;
-    font-size: 17px;
-  }
 }
 

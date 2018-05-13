@@ -1,0 +1,29 @@
+<%= render 'shared/navbar' %>
+
+<div class="page-frame center-item container">
+
+  <div class="show-image">
+    <div class="plot-cover" style="background-image: linear-gradient(-225deg, rgba(0,101,168,0.6) 0%, rgba(0,36,61,0.6) 50%), url('<%= cl_image_path @project.photo %>')"></div>
+      <%= cl_image_tag @project.photo, crop: :fill %>
+  </div>
+
+  <div class="show-title">
+    <h1><%= @project.name %></h1>
+  </div>
+
+  <div class="row">
+    <div class="col-xs-12 subdetails">
+      <i class="fa fa-map-marker"> <%= @project.location.capitalize %></i>
+      <i class="fa fa-building"> <%= @project.size %></i>
+      <i class="fa fa-tag"> <%= @project.category %></i>
+      <i class="fa fa-calendar"> <%= @project.start_date.year %>-<%= @project.end_date.year %></i>
+    </div>
+
+    <div class="col-xs-12 names">
+      <p>Promoteur: <%= @project.promoter %></p>
+      <p>Architecte: <%= @project.architect %></p>
+      <p>Gestionnaire: <%= @project.manager %></p>
+    </div>
+
+  </div>
+</div>

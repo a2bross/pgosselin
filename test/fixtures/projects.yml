@@ -1,0 +1,27 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  activity: MyString
+  type: 
+  location: MyString
+  size: 1
+  promoter: MyString
+  architect: MyString
+  manager: MyString
+  start_date: 2018-03-08
+  end_date: 2018-03-08
+  photo: MyString
+
+two:
+  name: MyString
+  activity: MyString
+  type: 
+  location: MyString
+  size: 1
+  promoter: MyString
+  architect: MyString
+  manager: MyString
+  start_date: 2018-03-08
+  end_date: 2018-03-08
+  photo: MyString

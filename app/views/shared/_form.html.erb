@@ -1,0 +1,17 @@
+<div class="formulaire">
+  <%= simple_form_for(@project) do |f| %>
+    <%= f.input :name, :label => "Nom" %>
+    <%= f.input :location, :label => "Localisation" %>
+    <%= f.input :activity , collection: ["AMO", "Promotion"], :label => "Activité" %>
+    <%= f.input :category, collection: ["Logement", "Résidence Etudiante", "Résidence Personnes Agées"], :label => "Type" %>
+    <%= f.input :size , :label => "Taille" %>
+    <%= f.input :promoter, :label => "Promoteur" %>
+    <%= f.input :architect, :label => "Architecte" %>
+    <%= f.input :manager, :label => "Gestionnaire" %>
+    <%= f.input :start_date, :label => "Date de début" %>
+    <%= f.input :end_date, :label => "Date de fin" %>
+    <%= f.input :photo %>
+    <%= f.input :photo_cache, as: :hidden %>
+    <%= f.button :submit %>
+  <% end %>
+</div>

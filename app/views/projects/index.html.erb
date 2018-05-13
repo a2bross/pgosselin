@@ -1,0 +1,62 @@
+<%= render 'shared/navbar' %>
+
+<div class="page-frame center-item container">
+  <div class="row">
+    <div class="col-xs-12 soustitrepage">
+      <h2>Nos réalisations en Assitance à Maîtrise d'Ouvrage</h2>
+    </div>
+
+
+
+
+    <% @projects.each do |project| %>
+      <% if project.activity == "AMO"  %>
+        <div class="col-xs-12 col-md-4 hvr-grow">
+          <div class="realisations card">
+            <%= link_to project_path(project) do %>
+            <div class="card-photo"><%= cl_image_tag project.photo, height: 180, width: 300, crop: :fill  %> </div>
+            <div class="details">
+              <div class="details_name"> <%= project.name %></div>
+              <div class="other_details">
+                <i class="fa fa-map-marker"> <%= project.location.capitalize %></i>
+                <i class="fa fa-tag"> <%= project.category %></i>
+                <i class="fa fa-building"> <%= project.size %></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <% end %>
+      <% else %>
+      <% end %>
+    <% end %>
+
+
+    <div class="col-xs-12 space"></div>
+
+
+    <div class="col-xs-12 soustitrepage">
+      <h2>Nos réalisations en promotion</h2>
+    </div>
+
+    <% @projects.each do |project| %>
+      <% if project.activity == "Promotion"  %>
+        <div class="col-xs-12 col-md-4 hvr-grow">
+          <div class="realisations card">
+            <%= link_to project_path(project) do %>
+            <div class="card-photo" ><%= cl_image_tag project.photo, height: 180, width: 300, crop: :fill  %> </div>
+            <div class="details">
+              <div class="details_name"> <%= project.name %></div>
+              <div class="other_details">
+                <i class="fa fa-map-marker"><%= project.location.capitalize %></i>
+                <i class="fa fa-tag"><%= project.category %></i>
+                <i class="fa fa-building"><%= project.size %></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      <% end %>
+      <% else %>
+      <% end %>
+    <% end %>
+  </div>
+</div>

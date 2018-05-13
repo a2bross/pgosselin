@@ -1,0 +1,66 @@
+.soustitrepage {
+  padding: 15px;
+}
+
+.space {
+  padding: 20px 0px;
+}
+
+.card-photo {
+  img {
+  height: 70%;
+  width: 100%;
+  }
+}
+
+.other_details {
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.details_name {
+  text-align: center;
+}
+
+.page-frame {
+  margin-top: 0.5px;
+  padding-top: 30px;
+  background-color: white;
+}
+
+
+.realisations {
+
+}
+
+.card {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    -webkit-box-shadow: 0.5px 0.5px 0.5px grey;
+    box-shadow: 0.5px 0.5px 0.5px grey;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    background-color: white;
+    margin-bottom: 20px;
+    text-decoration: none;
+}
+
+
+.hvr-grow {
+    display: inline-block;
+    vertical-align: middle;
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    transition-duration: 0.3s;
+    transition-property: transform;
+}
+
+.hvr-grow:hover,
+.hvr-grow:focus,
+.hvr-grow:active {
+  transform: scale(1.05);
+}
